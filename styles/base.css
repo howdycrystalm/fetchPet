@@ -10,7 +10,7 @@ font-family: 'Hind', sans-serif;*/
 }
 
 .tag-line {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Hind', serif;
   color: white;
 }
@@ -30,18 +30,6 @@ font-family: 'Hind', sans-serif;*/
 }
 
 
-.button {
-  width: 250px;
-  height:40px;
-  font-family: 'Hind', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-  border-radius: 70px;
-  border-color: #ffffff;
-  background: #ff8949;
-  margin-top: 20px; 
-  border: none;
-}
 
 
 .loader{  
