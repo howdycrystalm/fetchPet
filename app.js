@@ -13,7 +13,7 @@ angular.module('app', ['ui.router'])
       controller: 'petCtrl'
     })
     .state ('shelterView', {
-      url: '/shelterView',
+      url: '/shelterView/:id ',
       templateUrl: './views/shelterView.html',
       controller: 'shelterCtrl'
     })

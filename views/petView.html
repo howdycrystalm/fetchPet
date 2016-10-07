@@ -1,15 +1,14 @@
 <section class="tint-pet">
-            <div class="title-name pet-name">Populate Name</div>
-            <div class="photo"></div>
+            <div class="title-name pet-name">{{randomPets.petfinder.pet.name.$t}}</div>
+            <img class="photo" src='{{randomPets.petfinder.pet.media.photos.photo[2].$t}}' />
             <p>
-            Age: populate age
+            Age: {{randomPets.petfinder.pet.age.$t}}
             <p>
-            Location: populate location
+            Location: {{randomPets.petfinder.pet.contact.city.$t}}, {{randomPets.petfinder.pet.contact.state.$t}}
             <p>
             <div class="button-position">
-            <button class="button" ui-sref="shelterView">adopt me</button> 
+            <button class="button" ui-sref="shelterView({id: randomPets.petfinder.pet.shelterId.$t})">adopt me</button> 
             <button class="button" ui-sref="petView">get random pet</button> 
             </div>
-            <div>{{randomPets}}</div>
             
 </section>
