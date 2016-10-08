@@ -1,12 +1,17 @@
-.tint-pet {
-z-index: 1;
-height: 100vh;
-width: 100%;
-position: absolute;
-top: 0px;
-left: 0px;
-background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 157, 0.7) 100%);   
+
+.profile-container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 157, 0.7) 100%);   
 }
+
+#more {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+
 
 .title-name {
   font-size: 40px;
@@ -23,7 +28,7 @@ background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 1
     
 }​
 
-/*BUGGY. Must use two photo classes to below for css to show. why? I dunno*/
+/*BUGGY. Must use two photo classes below for css to show. why? I dunno*/
 .photo{
   background: yellow;
 }
@@ -65,8 +70,6 @@ background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 1
   max-width: 90%;
 
 }
-
-
 
 
 
