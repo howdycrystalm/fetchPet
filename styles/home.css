@@ -1,6 +1,6 @@
 .vertical-container {
   height: 100vh;
-  margin-bottom:-50px;
+  margin-bottom:-30px;
   display: -webkit-flex;
   display:         flex;
   -webkit-flex-direction: column; /* works with row or column */
