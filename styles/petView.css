@@ -1,13 +1,14 @@
 
 .profile-container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 157, 0.7) 100%);   
 }
 
 #more {
   height: 100vh;
   width: 100vw;
+  margin-bottom: -50px;
   background-color: red;
 }
 
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     
     
 }​

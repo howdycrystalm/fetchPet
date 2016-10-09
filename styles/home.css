@@ -1,5 +1,6 @@
 .vertical-container {
-  height: 90vh;
+  height: 100vh;
+  margin-bottom:-50px;
   display: -webkit-flex;
   display:         flex;
   -webkit-flex-direction: column; /* works with row or column */
@@ -7,10 +8,8 @@
   -webkit-align-items: center;
           align-items: center;
   -webkit-justify-content: center;
-          justify-content: center;
-  
+          justify-content: center;  
 }
-
 
 .bg-home {
   width: 100%;
@@ -22,7 +21,7 @@
 }
 
 .tint-home {
-z-index: 1;
+z-index: 0;
 height: 100vh;
 width: 100%;
 position: absolute;
