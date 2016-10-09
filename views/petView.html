@@ -1,14 +1,18 @@
 <section class="profile-container">
-      <div class="title-name pet-name">{{randomPets.petfinder.pet.name.$t}}
-      </div>
-            <img class="photo" src='{{randomPets.petfinder.pet.media.photos.photo[2].$t}}' />
-            <p>
-            Age: {{randomPets.petfinder.pet.age.$t}}
-            <p>
-            Location: {{randomPets.petfinder.pet.contact.city.$t}}, {{randomPets.petfinder.pet.contact.state.$t}}
-            <p>
-
-            <button id="top" ng-click="scrollTo('more')"><a>TEST</a></button>  
+      <div class="title-name pet-name">{{randomPets.petfinder.pet.name.$t}}</div>
+            <div class="photo-container">
+                  <img class="image-size" src='{{randomPets.petfinder.pet.media.photos.photo[2].$t}}' />
+            </div>
+            <div class="position"> 
+            <div class="text">
+                  <br>
+                  <span id=title>Age:</span> {{randomPets.petfinder.pet.age.$t}}
+                  <br>
+                  <span id=title>Location:</span>  {{randomPets.petfinder.pet.contact.city.$t}}, {{randomPets.petfinder.pet.contact.state.$t}}
+                  <br>
+            </div>
+            </div> 
+                  <button id="top" class="button-position" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button> 
  </section>           
 
 <div id="more">
