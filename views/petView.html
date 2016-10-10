@@ -1,6 +1,6 @@
 <section class="profile-container">
       <div class="title-name pet-name">{{randomPets.petfinder.pet.name.$t}}</div>
-            <div class="photo-container">
+            <div class="photo-container" ng-click="reloadRoute()">
                   <img class="image-size" src='{{randomPets.petfinder.pet.media.photos.photo[2].$t}}' />
             </div>
             <div class="position"> 
@@ -12,8 +12,12 @@
                   <br>
             </div>
             </div> 
-                  <button id="top" class="button-position" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button> 
- </section>           
+                  <!-- <button class="button" id="" href="" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button> use this linke when time to make slow scroll -->
+                   <button class="button" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button>
+                  
+</section>       
+
+    
 
 <div id="more">
       <div class="tint">
@@ -25,3 +29,4 @@
 </div>
 
 <footer-directive></footer-directive> 
+ </section> 

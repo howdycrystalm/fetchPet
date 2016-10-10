@@ -1,5 +1,5 @@
 angular.module('app')
-  .controller('petCtrl', function($scope, $location, $anchorScroll, petService) {
+  .controller('petCtrl', function($scope, $location, $anchorScroll, $state, petService) {
     
       petService.getRandom().then(function(response) {
         console.log(response)
@@ -11,5 +11,8 @@ angular.module('app')
         $location.hash(scrollLocation);
         $anchorScroll();
       }  
-    
+    $scope.reloadRoute = function() {
+      $state.reload();
+    };
   })
+  

@@ -13,8 +13,17 @@ font-family: 'Hind', sans-serif;*/
   font-size: 25px;
   font-family: 'Hind', serif;
   color: white;
+  animation: fadein 2s;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 
