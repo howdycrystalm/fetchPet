@@ -13,8 +13,8 @@
             </div>
             </div> 
                   <!-- <button class="button" id="" href="" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button> use this linke when time to make slow scroll -->
-                   <button class="button" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button>
-                  
+                   <!-- <div ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></div> -->
+                   <a href="#more" id="anchor1">click to scroll to info below</a>                  
 </section>       
 
     
@@ -25,8 +25,10 @@
             <h3>call: {{randomPets.petfinder.pet.contact.phone.$t}}</h3>
             <h3>email: {{randomPets.petfinder.pet.contact.email.$t}}</h3>
             <h3>pet ID: {{randomPets.petfinder.pet.id.$t}}</h3>
+            <div class="the-anchor"></div>  
       </div>
+      
 </div>
 
 <footer-directive></footer-directive> 
- </section> 
+
