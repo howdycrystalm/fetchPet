@@ -2,7 +2,7 @@
 .profile-container {
   height: 100vh;
   width: 100%;
-  background: #2CB2A4;  
+  background: url("../img/wallpaper2.png");  
 
 }
 
@@ -10,6 +10,7 @@
 z-index: 0;
 height: 100vh;
 width: 100%;
+padding: 30px;
 background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 157, 0.7) 100%);   
 }
 
@@ -107,15 +108,71 @@ background: linear-gradient(to bottom, rgba(0, 206, 162, 0.7)  0%, rgba(0, 90, 1
 }
 
 .text {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Hind', serif;
   color: white;
   display: inline;
 }
 
 #title {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Bevan', serif;
   color: #ffff;
   letter-spacing: 1px;
 }
+
+.learn-more {
+  position:static;
+}
+.button-size {
+  width: 50px;
+  height: 50px;
+}
+
+.myButton {
+  background: url(../img/arrow-button.png) no-repeat;
+  background-size: cover;
+  filter: invert();
+  position: relative;
+  margin: 10px auto;
+  
+}
+
+.adopt-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.styling {
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  top: 200px;
+}
+
+
+.position2 {
+  position: relative;
+  top: 150px;
+  
+}
+
+.bottom-button {
+  background: url(../img/arrow-button.png) no-repeat;
+  background-size: cover;
+  filter: invert();
+  margin: auto;
+  transform: rotate(180deg);
+}
+
+.position3{
+  position: relative;
+  bottom: -400px;
+}
+
+
+
+

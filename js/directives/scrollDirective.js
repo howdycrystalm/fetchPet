@@ -11,7 +11,7 @@ angular.module('app')
         } else {
           $target = $elm;
         }
-        $("body").animate({scrollTop: $target.offset().top}, "2000");
+        $("body").animate({scrollTop: $target.offset().top}, 2000);
       });
     }
   }

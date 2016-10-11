@@ -12,20 +12,27 @@
                   <br>
             </div>
             </div> 
-                  <!-- <button class="button" id="" href="" ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></button> use this linke when time to make slow scroll -->
-                   <!-- <div ng-click="scrollTo('more')"><a>Adopt {{randomPets.petfinder.pet.name.$t}}!</a></div> -->
-                   <a href="#more" id="anchor1">click to scroll to info below</a>                  
+            <div class="learn-more">
+                   <!-- <div ng-click="scrollTo('more')"><a href="more" id="anchor1">Adopt {{randomPets.petfinder.pet.name.$t}}!</a></div> -->
+                   <div class="text adopt-text">Learn More</div>
+                   <a href="#more" id="anchor1"><div class="button-size myButton"></div></a>                  
+            </div>
 </section>       
 
     
 
 <div id="more">
       <div class="tint">
-            <h2>Adopt me!</h2>
-            <h3>call: {{randomPets.petfinder.pet.contact.phone.$t}}</h3>
-            <h3>email: {{randomPets.petfinder.pet.contact.email.$t}}</h3>
-            <h3>pet ID: {{randomPets.petfinder.pet.id.$t}}</h3>
-            <div class="the-anchor"></div>  
+       <div class="styling text position2">
+            <h2 id="title">Adopt {{randomPets.petfinder.pet.name.$t}}</h2>
+            <br>
+            <span id="title">call:</span> {{randomPets.petfinder.pet.contact.phone.$t}}</h3>
+            <br>
+            <span id="title">email:</span> {{randomPets.petfinder.pet.contact.email.$t}}</h3>
+            <br>
+            <span id="title">pet ID:</span> {{randomPets.petfinder.pet.id.$t}}</h3>
+        </div>
+        <a href=.profile-container id="anchor2"><div class="button-size bottom-button position3"></div></a>
       </div>
       
 </div>
