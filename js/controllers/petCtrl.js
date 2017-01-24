@@ -1,12 +1,18 @@
 angular.module('app')
   .controller('petCtrl', function($scope, $location, $anchorScroll, $state, petService) {
-    
+
       petService.getRandom().then(function(response) {
         console.log(response)
-          $scope.randomPets = response.data; 
-  
+          $scope.randomPets = response.data;
+
       });
-      
+
+      // $scope.getData = function() {
+      //   $http.jsonp("http://api.petfinder.com/pet.getRandom?key=c070f97673649ee094e65de6e57d08a4&callback=JSON_CALL")
+      //   .then(function(json) {
+      //       $scope.response = json.data.data;
+      //   });
+
       $(function() {
       // Select link by id and add click event
       $('#anchor1').click(function() {
@@ -35,13 +41,12 @@ angular.module('app')
         return false;
       });
     });
-      
+
       $scope.scrollTo = function(scrollLocation){
         $location.hash(scrollLocation);
         $anchorScroll();
-      }  
+      }
     $scope.reloadRoute = function() {
       $state.reload();
     };
   })
-  
